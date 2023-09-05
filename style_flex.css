@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Righteous&display=swap');
+
+h1{
+    font-family: 'Righteous', cursive;
+}
+
+h2, h3, h4, h5, ul{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p,span{
+    font-family: 'Lexend Deca', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Barra de navegacion */
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff9934;
+    color: white;
+    /* position: fixed;
+    width: 100%; podemos ver esto en clase ;)*/
+}
+
+.botonera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcaf77;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botonera li{
+    padding:10px;
+}
+
+.botonera li a{
+    text-decoration: none;
+    color:white;
+}
+
+/* Home */
+#home{
+    display: flex;
+    justify-content: end;
+    padding: 200px;
+    background-image: url("img/sushi-roll.jpg");
+    background-size: cover;
+    color: rgb(139, 99, 24);
+
+}
+/* Menu */
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff9934;
+    padding:100px;
+}
+
+.galeria{
+    display: flex; 
+ }
+
+.galeria-item{
+    background-color: #fcaf77;
+    margin:50px;
+}
+.galeria-item-imagen{
+    width: 100%;
+}
+.galeria-item-texto{
+    padding: 10px 60px;
+}
+
+/* Chef */
+#chef{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    background-color: rgb(215, 110, 53);
+    color: white;
+}
+.harrystyles{
+    width: 450px;
+}
+.chef-descripcion{
+    width: 500px;
+    font-size:36px;
+    line-height: 50px;
+    text-align: justify;
+}
+.texto-destacado{
+    text-decoration: underline;
+    color: black;
+    padding-top:5px;
+}
+/* Ubicacion */
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe8833;
+    padding:50px;
+}
+
+.camion{
+    width: 150px;
+}
+
+.mapa{
+    width: 600px;
+}
